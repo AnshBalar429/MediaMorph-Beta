@@ -34,9 +34,10 @@ const Header = () => {
       </div>
 
       <div className="flex items-center gap-4">
-        <button onClick={() => {
-          window.location.href = "https://github.com/AnshBalar429";
-        }}
+        <button 
+        // onClick={() => {
+        //   window.location.href = "https://github.com/AnshBalar429";
+        // }}
           className="
             flex items-center text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white
             transition-colors text-sm font-medium
